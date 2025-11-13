@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Pamoka</string>
+
+    <!-- Week and Day Views -->
+    <string name="week_schedule">Savaitės tvarkaraštis</string>
+    <string name="tap_day_view_lessons">Paspauskite dieną, kad pamatytumėte pamokas</string>
+    <string name="no_lessons">Nėra pamokų</string>
+
+    <!-- Lesson Management -->
+    <string name="add_new_lesson">Pridėti naują pamoką</string>
+    <string name="edit_lesson">Redaguoti pamoką</string>
+    <string name="delete_lesson">Ištrinti pamoką</string>
+    <string name="lesson_name">Pamokos pavadinimas</string>
+    <string name="enter_lesson_name">Įveskite pamokos pavadinimą</string>
+    <string name="start_time">Pradžios laikas</string>
+    <string name="end_time">Pabaigos laikas</string>
+    <string name="fill_all_fields">Prašome užpildyti visus laukus</string>
+    <string name="free">Laisva</string>
+    <string name="free_lesson">Laisva pamoka</string>
+    <string name="lesson_added_to">Pamoka pridėta į %s</string>
+    <string name="free_lesson_added_to">Laisva pamoka pridėta į %s</string>
+    <string name="lesson_updated">Pamoka atnaujinta</string>
+    <string name="lesson_deleted">Pamoka ištrinta</string>
+    <string name="delete_lesson_all_weeks">Ištrinti šią pamoką iš visų savaičių?</string>
+
+    <!-- Notes -->
+    <string name="note">Pastaba</string>
+    <string name="enter_note">Įveskite pastabą...</string>
+    <string name="note_for">Pastaba: %s</string>
+    <string name="note_saved">Pastaba išsaugota</string>
+    <string name="note_deleted">Pastaba ištrinta</string>
+    <string name="delete_note">Ištrinti pastabą</string>
+    <string name="delete_note_confirmation">Ištrinti šią pastabą?</string>
+    <string name="add_image">Pridėti nuotrauką</string>
+    <string name="image">Nuotrauka</string>
+    <string name="choose_from_gallery">Pasirinkti iš galerijos</string>
+    <string name="remove_image">Ištrinti</string>
+    <string name="remove_image_confirmation">Ar tikrai norite pašalinti šią nuotrauką?</string>
+    <string name="image_added">Nuotrauka pridėta</string>
+    <string name="image_removed">Nuotrauka pašalinta</string>
+    <string name="close">Uždaryti</string>
+    <string name="adding_image">Ar norite pridėti šią nuotrauką?</string>
+    <string name="add_image_confirmation">Ar norite pridėti šią nuotrauką?</string>
+
+    <!-- Weekdays -->
+    <string name="monday">Pirmadienis</string>
+    <string name="tuesday">Antradienis</string>
+    <string name="wednesday">Trečiadienis</string>
+    <string name="thursday">Ketvirtadienis</string>
+    <string name="friday">Penktadienis</string>
+
+    <!-- Language -->
+    <string name="change_language">Keisti kalbą</string>
+    <string name="select_language">Pasirinkite kalbą</string>
+    <string name="english">Anglų</string>
+    <string name="lithuanian">Lietuvių</string>
+    <string name="language_changed">Kalba pakeista į %s</string>
+
+    <!-- Settings -->
+    <string name="settings">Nustatymai</string>
+    <string name="delete_all_lessons_and_notes">Ištrinti visas pamokas ir pastabas</string>
+    <string name="delete_all_data">Ištrinti visus duomenis</string>
+    <string name="delete_all_data_confirmation">Ar tikrai norite ištrinti visas pamokas ir pastabas? Šio veiksmo negalima atšaukti.</string>
+    <string name="delete_timetable_confirmation">Ar taip pat norite ištrinti tvarkaraštį?</string>
+    <string name="all_data_deleted">Visi duomenys ištrinti</string>
+    <string name="timetable_deleted">Tvarkaraštis ištrintas</string>
+
+    <!-- Common Actions -->
+    <string name="add">Pridėti</string>
+    <string name="save">Išsaugoti</string>
+    <string name="delete">Ištrinti</string>
+    <string name="cancel">Atšaukti</string>
+    <string name="yes">Taip</string>
+    <string name="no">Ne</string>
+
+    <!-- Week Format -->
+    <string name="week">Savaitė</string>
+
+    <!-- Lesson Selection -->
+    <string name="select_day_for_lesson">Pasirinkite dieną pamokai</string>
+    <string name="select_lesson_number">Pasirinkite pamokos numerį</string>
+
+    <!-- New strings for timetable -->
+    <string name="all_slots_used">Visi pamokų laikai užimti</string>
+    <string name="delete_timetable">Ištrinti tvarkaraštį</string>
+    <string name="edit">Redaguoti</string>
+    <string name="email_body">El. laiško tekstas</string>
+    <string name="email_subject">El. laiško tema</string>
+    <string name="save_times">Išsaugoti laikus</string>
+    <string name="suggest_features">Pasiūlyti funkcijas</string>
+    <string name="change_reminder">Keisti priminimą</string>
+    <string name="reminder_removed">Priminimas pašalintas</string>
+    <string name="reminder_time_past">Pasirinkite būsimą laiką priminimui</string>
+    <string name="no_timetable_set">Tvarkaraštis nenustatytas</string>
+    <string name="no_timetable_message">Pirmiausia nustatykite pamokų laikus. Ar norite nustatyti tvarkaraštį dabar?</string>
+    <string name="set_up_timetable">Nustatyti tvarkaraštį</string>
+    <string name="manage_lesson_times">Tvarkyti pamokų laikus</string>
+    <string name="add_time">Pridėti</string>
+    <string name="start_time_default">Pradžios laikas</string>
+    <string name="end_time_default">Pabaigos laikas</string>
+    <string name="delete_image">Ištrinti nuotrauką</string>
+    <string name="delete_image_confirmation">Ar tikrai norite ištrinti šią nuotrauką?</string>
+    <string name="confirmation">Patvirtinimas</string>
+    <string name="image_preview">Vaizdo peržiūra</string>
+    <string name="add_new_lesson_time">Pridėti</string>
+
+    <string name="set_reminder">Nustatyti priminimą</string>
+    <string name="select_date">Pasirinkti datą</string>
+    <string name="select_time">Pasirinkti laiką</string>
+    <string name="no_reminder_set">Priminimas nenustatytas</string>
+    <string name="enable_reminder">Įjungti priminimą</string>
+    <string name="reminder_set_for">Priminimas nustatytas %s</string>
+    <string name="reminder_canceled">Priminimas atšauktas</string>
+    <string name="spanish">Ispanų</string>
+    <string name="reminder_set">Priminimas nustatytas!</string>
+    <string name="reminder_time_passed">Priminimo laikas jau praėjo</string>
+    <string name="ask_for_feature">Prašyti naujos funkcijos</string>
+<string name="feature_request">Prašymas pridėti funkciją</string>
+<string name="feature_request_message">Pasidalykite savo idėja ar pasiūlymu:</string>
+<string name="send_feature_request">Siųsti</string>
+<string name="feature_request_sent">Prašymas sėkmingai išsiųstas!</string>
+<string name="feature_request_too_short">Įveskite bent 5 simbolius</string>
+<string name="feature_request_too_long">Apribokite savo pranešimą iki 200 simbolių</string>
+<string name="feature_request_limit">Palaukite minutę prieš siųsdami kitą prašymą</string>
+<string name="feature_request_error">Nepavyko išsiųsti prašymo. Bandykite dar kartą.</string>
+
+</resources>

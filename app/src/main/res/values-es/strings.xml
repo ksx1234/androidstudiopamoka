@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Lección</string>
+
+    <!-- Week and Day Views -->
+    <string name="week_schedule">Horario Semanal</string>
+    <string name="tap_day_view_lessons">Toca un día para ver las lecciones</string>
+    <string name="no_lessons">No hay lecciones</string>
+
+    <!-- Lesson Management -->
+    <string name="add_new_lesson">Añadir Nueva Lección</string>
+    <string name="edit_lesson">Editar Lección</string>
+    <string name="delete_lesson">Eliminar Lección</string>
+    <string name="lesson_name">Nombre de la Lección</string>
+    <string name="enter_lesson_name">Ingresa el nombre de la lección</string>
+    <string name="start_time">Hora de Inicio</string>
+    <string name="end_time">Hora de Fin</string>
+    <string name="fill_all_fields">Por favor completa todos los campos</string>
+    <string name="free">Libre</string>
+    <string name="free_lesson">Lección Libre</string>
+    <string name="lesson_added_to">Lección añadida a %s</string>
+    <string name="free_lesson_added_to">Lección libre añadida a %s</string>
+    <string name="lesson_updated">Lección actualizada</string>
+    <string name="lesson_deleted">Lección eliminada</string>
+    <string name="delete_lesson_all_weeks">¿Eliminar esta lección de todas las semanas?</string>
+
+    <!-- Notes -->
+    <string name="note">Nota</string>
+    <string name="enter_note">Ingresa una nota...</string>
+    <string name="note_for">Nota para %s</string>
+    <string name="note_saved">Nota guardada</string>
+    <string name="note_deleted">Nota eliminada</string>
+    <string name="delete_note">Eliminar Nota</string>
+    <string name="delete_note_confirmation">¿Eliminar esta nota?</string>
+    <string name="add_image">Añadir Imagen</string>
+    <string name="image">Imagen</string>
+    <string name="choose_from_gallery">Elegir de la Galería</string>
+    <string name="remove_image">Eliminar</string>
+    <string name="remove_image_confirmation">¿Estás seguro de que quieres eliminar esta imagen?</string>
+    <string name="image_added">Imagen añadida</string>
+    <string name="image_removed">Imagen eliminada</string>
+    <string name="close">Cerrar</string>
+    <string name="adding_image">¿Quieres añadir esta imagen?</string>
+    <string name="add_image_confirmation">¿Quieres añadir esta imagen?</string>
+
+    <!-- Weekdays -->
+    <string name="monday">Lunes</string>
+    <string name="tuesday">Martes</string>
+    <string name="wednesday">Miércoles</string>
+    <string name="thursday">Jueves</string>
+    <string name="friday">Viernes</string>
+
+    <!-- Language -->
+    <string name="change_language">Cambiar Idioma</string>
+    <string name="select_language">Seleccionar Idioma</string>
+    <string name="english">Inglés</string>
+    <string name="lithuanian">Lituano</string>
+    <string name="language_changed">Idioma cambiado a %s</string>
+
+    <!-- Settings -->
+    <string name="settings">Configuración</string>
+    <string name="delete_all_lessons_and_notes">Eliminar todas las lecciones y notas</string>
+    <string name="delete_all_data">Eliminar todos los datos</string>
+    <string name="delete_all_data_confirmation">¿Estás seguro de que quieres eliminar todas las lecciones y notas? Esta acción no se puede deshacer.</string>
+    <string name="delete_timetable_confirmation">¿También quieres eliminar el horario?</string>
+    <string name="all_data_deleted">Todos los datos eliminados</string>
+    <string name="timetable_deleted">Horario eliminado</string>
+
+    <!-- Common Actions -->
+    <string name="add">Añadir</string>
+    <string name="save">Guardar</string>
+    <string name="delete">Eliminar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="yes">Sí</string>
+    <string name="no">No</string>
+
+    <!-- Week Format -->
+    <string name="week">Semana</string>
+
+    <!-- Lesson Selection -->
+    <string name="select_day_for_lesson">Seleccionar día para la lección</string>
+    <string name="select_lesson_number">Seleccionar número de lección</string>
+
+    <!-- New strings for timetable -->
+    <string name="all_slots_used">Todos los espacios de lecciones están usados</string>
+    <string name="delete_timetable">Eliminar Horario</string>
+    <string name="edit">Editar</string>
+    <string name="email_body">Cuerpo del Correo</string>
+    <string name="email_subject">Asunto del Correo</string>
+    <string name="save_times">Guardar Horarios</string>
+    <string name="suggest_features">Sugerir Características</string>
+    <string name="change_reminder">Cambiar Recordatorio</string>
+    <string name="reminder_removed">Recordatorio eliminado</string>
+    <string name="reminder_time_past">Por favor selecciona un tiempo futuro para el recordatorio</string>
+    <string name="no_timetable_set">Horario No Establecido</string>
+    <string name="no_timetable_message">Por favor establece los horarios de lecciones primero. ¿Quieres establecer el horario ahora?</string>
+    <string name="set_up_timetable">Establecer Horario</string>
+    <string name="manage_lesson_times">Gestionar Horarios de Lecciones</string>
+    <string name="add_time">Añadir</string>
+    <string name="start_time_default">Hora de Inicio</string>
+    <string name="end_time_default">Hora de Fin</string>
+    <string name="delete_image">Eliminar Imagen</string>
+    <string name="delete_image_confirmation">¿Estás seguro de que quieres eliminar esta imagen?</string>
+    <string name="confirmation">Confirmación</string>
+    <string name="image_preview">Vista Previa de Imagen</string>
+    <string name="add_new_lesson_time">Añadir</string>
+
+    <string name="set_reminder">Establecer Recordatorio</string>
+    <string name="select_date">Seleccionar Fecha</string>
+    <string name="select_time">Seleccionar Hora</string>
+    <string name="no_reminder_set">No hay recordatorio establecido</string>
+    <string name="enable_reminder">Habilitar recordatorio</string>
+    <string name="reminder_set_for">Recordatorio establecido para %s</string>
+    <string name="reminder_canceled">Recordatorio cancelado</string>
+    <string name="spanish">Español</string>
+    <string name="reminder_set">¡Recordatorio establecido!</string>
+    <string name="reminder_time_passed">El tiempo del recordatorio ya pasó</string>
+    <string name="ask_for_feature">Solicitar una Función</string>
+    <string name="feature_request">Solicitud de Función</string>
+    <string name="feature_request_message">Comparte tu idea o sugerencia:</string>
+    <string name="send_feature_request">Enviar</string>
+    <string name="feature_request_sent">¡Solicitud enviada exitosamente!</string>
+    <string name="feature_request_too_short">Por favor ingresa al menos 5 caracteres</string>
+    <string name="feature_request_too_long">Por favor limita tu mensaje a 200 caracteres</string>
+    <string name="feature_request_limit">Por favor espera un minuto antes de enviar otra solicitud</string>
+    <string name="feature_request_error">Error al enviar la solicitud. Por favor inténtalo de nuevo.</string>
+</resources>

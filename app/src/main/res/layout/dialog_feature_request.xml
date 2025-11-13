@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/dialog_solid_background"
+    android:padding="0dp"
+    android:layout_margin="8dp">
+
+    <!-- Purple Header -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/header_with_border"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/feature_request"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textAllCaps="true" />
+
+    </LinearLayout>
+
+    <!-- Content Area -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/feature_request_message"
+            android:textColor="@android:color/white"
+            android:textSize="14sp"
+            android:layout_marginBottom="8dp" />
+
+        <EditText
+            android:id="@+id/etFeatureMessage"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:textColor="@android:color/white"
+            android:textSize="14sp"
+            android:background="@drawable/edit_text_background"
+            android:padding="12dp"
+            android:gravity="top"
+            android:maxLines="5"
+            android:inputType="textMultiLine|textCapSentences"
+            android:maxLength="100" />
+
+        <TextView
+            android:id="@+id/tvCharacterCount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="0/100"
+            android:textColor="@android:color/white"
+            android:textSize="12sp"
+            android:gravity="end"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="16dp" />
+
+    </LinearLayout>
+
+    <!-- Footer with Cancel and Send Buttons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@android:color/transparent"
+        android:padding="16dp"
+        android:gravity="center_vertical"
+        android:weightSum="2">
+
+        <Button
+            android:id="@+id/btnCancelFeature"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginEnd="8dp"
+            android:text="@string/cancel"
+            android:backgroundTint="@android:color/white"
+            android:textColor="@color/purple_500" />
+
+        <Button
+            android:id="@+id/btnSendFeature"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="8dp"
+            android:text="@string/send_feature_request"
+            android:backgroundTint="@android:color/white"
+            android:textColor="@color/purple_500" />
+
+    </LinearLayout>
+
+</LinearLayout>
